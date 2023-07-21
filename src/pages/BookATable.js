@@ -3,6 +3,8 @@ import Alert from 'react-bootstrap/Alert';
 import Button from 'react-bootstrap/Button';
 import PaymentSection from './PaymentSection';
 import DeliveryForm from './DeliveryForm';
+import { HashLink } from 'react-router-hash-link';
+import { BiList, BiChat } from 'react-icons/bi';
 
 function BookATable() {
     const [showConfirmation, setShowConfirmation] = useState(false);
@@ -26,6 +28,9 @@ function BookATable() {
                     <h2>Book a <span>Table</span></h2>
                     <p>Book a table to enjoy our delicious dishes and impeccable service.</p>
                 </div>
+                <HashLink className="book-a-table-btn scrollto" to="/contact#chat">
+            <BiChat /> <span>Chat with us</span>
+          </HashLink>
                 {!showConfirmation && !showPaymentButton && (
                     <form onSubmit={handleBookTable} className="php-email-form">
                         <div className="row">
@@ -71,6 +76,7 @@ function BookATable() {
                             <button type="submit">Send</button>
                         </div>
                     </form>
+                    
                 )}
 
                 {showConfirmation && (

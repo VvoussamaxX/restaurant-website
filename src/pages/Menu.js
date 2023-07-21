@@ -1,9 +1,9 @@
 import React, { Fragment, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { HashLink } from 'react-router-hash-link';
 import Isotope from 'isotope-layout';
 import Swiper from 'swiper';
 import { FaHome, FaChevronDown } from 'react-icons/fa';
+import { HashLink } from 'react-router-hash-link';
 import { BiList, BiChat } from 'react-icons/bi';
 import { AiOutlineMenu } from 'react-icons/ai';
 import { IoIosArrowDown } from 'react-icons/io';
