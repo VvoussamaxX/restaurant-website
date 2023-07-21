@@ -1,25 +1,33 @@
 import logo from './logo.svg';
 import './App.css';
+import Index from './pages/Index';
+import Services from './pages/Services';
+import Contact from './pages/Contact';
+import Team from './pages/Team';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Link as ScrollLink } from 'react-scroll';
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Router>
+        <Routes>
+          <Route path='/' element={<Index />} />
+          <Route path='/Services' element={<Services />} />
+          <Route path='/Team' element={<Team />} />
+          <Route path='/Contact' element={<Contact />} />
+        </Routes>
+      </Router>
     </div>
   );
 }
 
 export default App;
+
+
+
+
+
+
