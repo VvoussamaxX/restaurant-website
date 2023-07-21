@@ -28,9 +28,9 @@ function BookATable() {
                     <h2>Book a <span>Table</span></h2>
                     <p>Book a table to enjoy our delicious dishes and impeccable service.</p>
                 </div>
-                <HashLink className="book-a-table-btn scrollto" to="/contact#chat">
-            <BiChat /> <span>Chat with us</span>
-          </HashLink>
+                <HashLink className="book-a-table-btn scrollto" to="/contact#chat" >
+                    <BiChat /> <span>Chat with us</span>
+                </HashLink>
                 {!showConfirmation && !showPaymentButton && (
                     <form onSubmit={handleBookTable} className="php-email-form">
                         <div className="row">
@@ -76,7 +76,7 @@ function BookATable() {
                             <button type="submit">Send</button>
                         </div>
                     </form>
-                    
+
                 )}
 
                 {showConfirmation && (
@@ -87,6 +87,13 @@ function BookATable() {
                         <div className="d-flex justify-content-end">
                             <a href="#payment-section" className="btn-menu animate__animated animate__fadeInUp scrollto">Proceed to Payment</a>
                         </div>
+
+                        <div className="d-flex justify-content-end" style={{ paddingTop: '10px' }}>
+                            <Button onClick={() => setShowConfirmation(false)} variant="outline-success">
+                                Close
+                            </Button>
+                        </div>
+
                     </Alert>
                 )}
 

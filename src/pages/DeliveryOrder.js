@@ -83,6 +83,11 @@ function DeliveryOrder() {
                   Proceed to Payment
                 </Button>
               </div>
+              <div className="d-flex justify-content-end" style={{ paddingTop: '10px' }}>
+                  <Button onClick={() => setShowConfirmation(false)} variant="outline-success">
+                    Close
+                  </Button>
+                </div>
             </Alert>
           </div>
         )}

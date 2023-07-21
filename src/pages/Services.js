@@ -122,7 +122,7 @@ function Services() {
                                                 <p>Indulge in the exquisite flavors of our grilled salmon fillet. The perfectly cooked salmon is seasoned to perfection and grilled to achieve a deliciously flaky texture. Served with a medley of roasted vegetables, this dish offers a harmonious blend of flavors and a healthy choice for seafood enthusiasts.</p>
                                             </div>
                                             <div className="col-lg-4 text-center order-1 order-lg-2">
-                                                <img src="assets/img/specials-1.jpg" alt="Grilled Salmon" className="img-fluid" />
+                                                <img src="assets/img/salmon.png" alt="Grilled Salmon" className="img-fluid" />
                                             </div>
                                         </div>
                                     </div>
@@ -134,7 +134,7 @@ function Services() {
                                                 <p>Experience the ultimate satisfaction with our succulent beef steak. Each cut is carefully selected and cooked to your preferred doneness, ensuring a juicy and flavorful dining experience. Whether you prefer it medium-rare or well-done, our steak is a carnivore's delight. Served with a choice of delectable sauces and a side of your choice, it's a classic dish that never disappoints.</p>
                                             </div>
                                             <div className="col-lg-4 text-center order-1 order-lg-2">
-                                                <img src="assets/img/specials-2.jpg" alt="Beef Steak" className="img-fluid" />
+                                                <img src="assets/img/beef.png" alt="Beef Steak" className="img-fluid" />
                                             </div>
                                         </div>
                                     </div>
@@ -146,7 +146,7 @@ function Services() {
                                                 <p>Enjoy a refreshing and light salad packed with flavor. Our shrimp salad features plump and succulent shrimp, combined with a variety of crisp greens and vibrant vegetables. Tossed in a zesty dressing, every bite delivers a burst of freshness. It's the perfect choice for those seeking a lighter yet satisfying meal option.</p>
                                             </div>
                                             <div className="col-lg-4 text-center order-1 order-lg-2">
-                                                <img src="assets/img/specials-3.jpg" alt="Shrimp Salad" className="img-fluid" />
+                                                <img src="assets/img/shrimp.png" alt="Shrimp Salad" className="img-fluid" />
                                             </div>
                                         </div>
                                     </div>
@@ -158,7 +158,7 @@ function Services() {
                                                 <p>Experience the authentic flavors of Italy with our hearty spaghetti bolognese. The al dente spaghetti is paired with a flavorful bolognese sauce made from a perfect blend of ground beef, tomatoes, herbs, and spices. Each bite is a symphony of tastes that will transport you to the streets of Italy. It's a timeless favorite that never fails to satisfy.</p>
                                             </div>
                                             <div className="col-lg-4 text-center order-1 order-lg-2">
-                                                <img src="assets/img/specials-4.jpg" alt="Spaghetti Bolognese" className="img-fluid" />
+                                                <img src="assets/img/spaghetti.png" alt="Spaghetti Bolognese" className="img-fluid" />
                                             </div>
                                         </div>
                                     </div>
@@ -170,7 +170,7 @@ function Services() {
                                                 <p>Indulge in a heavenly dessert with our rich and velvety chocolate fondant. The outer layer boasts a delicate cake-like texture, while the center oozes with warm, gooey chocolate. Served with a generous scoop of creamy vanilla ice cream, it's a match made in dessert heaven. The combination of warm and cold, coupled with the divine chocolate flavors, will leave you craving for more.</p>
                                             </div>
                                             <div className="col-lg-4 text-center order-1 order-lg-2">
-                                                <img src="assets/img/specials-5.jpg" alt="Chocolate Fondant" className="img-fluid" />
+                                                <img src="assets/img/ch .png" alt="Chocolate Fondant" className="img-fluid" />
                                             </div>
                                         </div>
                                     </div>

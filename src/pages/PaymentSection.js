@@ -69,6 +69,11 @@ function PaymentSection() {
               <Alert.Heading>Order Confirmed!</Alert.Heading>
               <p>Your payment was successfully processed. Thank you for your order!</p>
               <hr />
+              <div className="d-flex justify-content-end">
+                  <Button onClick={() => setShowConfirmation(false)} variant="outline-success">
+                    Close
+                  </Button>
+                </div>
             </Alert>
           </div>
         )}

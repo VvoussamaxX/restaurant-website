@@ -86,7 +86,7 @@ function Index() {
                         <div className="row">
 
                             <div className="col-lg-5 align-items-stretch video-box" style={{ backgroundImage: 'url("assets/img/about.jpg")' }}>
-                                <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" className="venobox play-btn mb-4" data-vbtype="video" data-autoplay="true"></a>
+                                <a href="https://www.youtube.com/watch?v=xPPLbEFbCAo" className="venobox play-btn mb-4" data-vbtype="video" data-autoplay="true"></a>
                             </div>
 
                             <div className="col-lg-7 d-flex flex-column justify-content-center align-items-stretch">
